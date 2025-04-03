@@ -36,6 +36,10 @@ h1, h2, h3 {
 
 * { font-family: calibri, sans-serif; } 
 
+ol ul {
+    list-style-type: square;
+}
+
 aside, footer { font-style: italic; }
 
 table th, td{
@@ -76,4 +80,8 @@ aside:hover {
 nav a:hover { 
     background-color: lightblue;
     border-color: darkblue;
+}
+
+#hyperlinks {
+color: black;
 }
