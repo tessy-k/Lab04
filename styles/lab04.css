@@ -1,0 +1,79 @@
+/*
+filename: lab04.css
+
+author: Tessy Kurian
+
+created: 27/03/2025
+
+last modified: 27/03/2025
+
+description: [html files it refers to (if known)]
+
+*/
+selector { 
+    property1: value1; 
+    property2: value2;
+}
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2 {
+    color: rgb(0,128,128);
+    font-weight: bold;
+}
+
+h3{
+    color: red;
+}
+
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+* { font-family: calibri, sans-serif; } 
+
+aside, footer { font-style: italic; }
+
+table th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#introduction {
+    text-align: center;
+}
+
+#images {
+    text-align : center;  /* careful: center has US spelling */
+    }
+
+.introduction {
+        color: darkorange; /* Note the US spelling of "color" and the semi-colon after each property value */
+    }
+
+.special {
+        color: darkorange;
+        font-weight:bold;
+       }      
+
+.month {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+   }  
+
+aside:hover {
+    display: none;
+}
+nav a:hover { 
+    background-color: lightblue;
+    border-color: darkblue;
+}
