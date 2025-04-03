@@ -10,11 +10,10 @@ last modified: 27/03/2025
 description: [html files it refers to (if known)]
 
 */
-selector { 
-    property1: value1; 
-    property2: value2;
+* {
+    font-family: Calibri;
+    color: #2f4F4F;
 }
-
 h1 { 
     color: purple; 
     font-size: 2em; 
@@ -26,8 +25,9 @@ h2 {
     font-weight: bold;
 }
 
-h3{
+#Heading{
     color: red;
+    font-size: 1em;
 }
 
 h1, h2, h3 {
@@ -82,6 +82,8 @@ nav a:hover {
     border-color: darkblue;
 }
 
-#hyperlinks {
-color: black;
+#paragraphs {
+    color: grey;
+    font-size 20px;
+    font-weight bold;
 }
